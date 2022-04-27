@@ -16,4 +16,5 @@ def get_ip():
     #print(f"MY IP ADDRESS IS: {ip}")
     return ip
 
-
+if __name__ == "__main__":
+    print(f"My IP ADDRESS IS: {get_ip()}")
